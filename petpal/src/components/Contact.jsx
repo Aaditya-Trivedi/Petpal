@@ -86,7 +86,7 @@ function Contact(){
               <nav className="tgmobile__menu-box">
                 <div className="close-btn"><i className="fas fa-times" /></div>
                 <div className="nav-logo">
-                  <a href="index-2.html"><img src="assets/img/logo/logo.png" alt="Logo" /></a>
+                  <a href="index-2.html"><img src="petpal/assets/img/logo/logo.png" alt="Logo" /></a>
                 </div>
                 <div className="tgmobile__search">
                   <form action="#">
@@ -171,14 +171,14 @@ function Contact(){
           </div>
           <div className="col-lg-4">
             <div className="breadcrumb__img">
-              <img src="assets/img/images/breadcrumb_img.png" alt="img" data-aos="fade-left" data-aos-delay={800} />
+              <img src="petpal/assets/img/images/breadcrumb_img.png" alt="img" data-aos="fade-left" data-aos-delay={800} />
             </div>
           </div>
         </div>
       </div>
       <div className="breadcrumb__shape-wrap">
-        <img src="assets/img/images/breadcrumb_shape01.png" alt="img" data-aos="fade-down-right" data-aos-delay={400} />
-        <img src="assets/img/images/breadcrumb_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
+        <img src="petpal/assets/img/images/breadcrumb_shape01.png" alt="img" data-aos="fade-down-right" data-aos-delay={400} />
+        <img src="petpal/assets/img/images/breadcrumb_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
       </div>
     </section>
     {/* breadcrumb-area-end */}
@@ -358,8 +358,8 @@ function Contact(){
           </div>
         </div>
         <div className="footer__shape-wrap">
-          <img src="assets/img/images/footer_shape01.png" alt="img" data-aos="fade-up-right" data-aos-delay={400} />
-          <img src="assets/img/images/footer_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
+          <img src="petpal/assets/img/images/footer_shape01.png" alt="img" data-aos="fade-up-right" data-aos-delay={400} />
+          <img src="petpal/assets/img/images/footer_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
         </div>
       </div>
       <div className="footer__bottom footer__bottom-two">
