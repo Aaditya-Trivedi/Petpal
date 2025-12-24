@@ -2,7 +2,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Contact from './components/Contact'
+import Contact from './pages/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
