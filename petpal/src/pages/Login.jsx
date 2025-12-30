@@ -2,16 +2,41 @@ import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
 import PageTitle from "../components/PageTitle.jsx";
 import Swal from "sweetalert2";
+import { useState } from "react";
+import { auth } from "../firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 function Login() {
-    function SignIn() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  async function SignIn() {
+
+    try {
+
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
       Swal.fire({
         icon: "success",
         title: "Yeah...",
         text: "Login Successfully!",
       });
-    }
 
+      // optional: clear fields
+      setEmail("");
+      setPassword("");
+    } catch (err) {
+      console.log(err)
+      Swal.fire({
+        icon: "error",
+        title: "Login Fail!",
+
+      });
+    }
+  }
   return (
     <>
       {/*Preloader-end */}
@@ -51,11 +76,12 @@ function Login() {
                       <div className="col-md-12">
                         <div className="form-grp">
                           <input
-                            name="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             type="email"
                             placeholder="E-mail"
                           />
-                          {/*onChange={(e) => setName(e.target.value)} */}
+
                         </div>
                       </div>
 
@@ -63,7 +89,8 @@ function Login() {
                         <div className="form-grp">
                           <input
                             type="password"
-                            name="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                             placeholder="Password"
                           />
                         </div>
@@ -93,5 +120,6 @@ function Login() {
     </>
   );
 }
+
 
 export default Login;

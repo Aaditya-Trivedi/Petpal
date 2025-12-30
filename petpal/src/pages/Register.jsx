@@ -23,7 +23,7 @@ function Register() {
       Swal.fire({
         icon: "success",
         title: "Yeah...",
-        text: "Registered Successfully!",
+        text: "Registeration Successfully!",
       });
 
       setName("");
@@ -33,7 +33,7 @@ function Register() {
       // console.log(err);
       Swal.fire({
         icon: "error",
-        title: err.message,
+        title: "Registeration Fail!",
       });
     }
 }
@@ -80,7 +80,6 @@ function Register() {
                           <div className="form-grp">
                             <input
                               type="text"
-                              
                               placeholder="Name"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
@@ -91,7 +90,6 @@ function Register() {
                         <div className="col-md-12">
                           <div className="form-grp">
                             <input
-                              
                               type="email"
                               placeholder="E-mail"
                               value={email}
@@ -104,7 +102,6 @@ function Register() {
                           <div className="form-grp">
                             <input
                               type="password"
-                              
                               placeholder="Password"
                               value={password}
                               onChange={(e) => setPassword(e.target.value)}
