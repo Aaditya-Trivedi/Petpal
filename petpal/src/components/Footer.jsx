@@ -15,7 +15,7 @@ function Footer(){
           <div className="col-lg-7">
             <form action="#" className="footer__newsletter-form-two">
               <input type="email" placeholder="Type Your E-mail" />
-              <button type="submit">Subscribe <img src="/public/petpal/assets/img/icon/right_arrow04.svg" alt className="injectable" /></button>
+              <button type="submit">Subscribe <img src="/petpal/assets/img/icon/right_arrow04.svg" alt className="injectable" /></button>
             </form>
           </div>
         </div>
@@ -27,7 +27,7 @@ function Footer(){
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer__widget">
               <div className="footer__logo">
-                <a href="index-2.html"><img src="/public/petpal/assets/img/logo/w_logo.png" alt /></a>
+                <a href="index-2.html"><img src="/petpal/assets/img/logo/w_logo.png" alt /></a>
               </div>
               <div className="footer__content footer__content-two">
                 <p>Duis aute irure dolor in repreerit in voluptate velitesse We understand that your furry friend tred member</p>
@@ -87,8 +87,8 @@ function Footer(){
         </div>
       </div>
       <div className="footer__shape-wrap">
-        <img src="/public/petpal/assets/img/images/footer_shape01.png" alt="img" data-aos="fade-up-right" data-aos-delay={400} />
-        <img src="/public/petpal/assets/img/images/footer_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
+        <img src="/petpal/assets/img/images/footer_shape01.png" alt="img" data-aos="fade-up-right" data-aos-delay={400} />
+        <img src="/petpal/assets/img/images/footer_shape02.png" alt="img" data-aos="fade-up-left" data-aos-delay={400} />
       </div>
     </div>
     <div className="footer__bottom footer__bottom-two">

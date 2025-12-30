@@ -72,7 +72,7 @@ function Login() {
                     <button type="button" className="btn" onClick={SignIn}>
                       Login
                       <img
-                        src="petpal/assets/img/icon/right_arrow.svg"
+                        src="/petpal/assets/img/icon/right_arrow.svg"
                         alt
                         className="injectable"
                       />

@@ -23,7 +23,7 @@ function PageTitle(){
             <div className="col-lg-4">
                 <div className="breadcrumb__img">
                 <img
-                    src="/public/petpal/assets/img/images/breadcrumb_img.png"
+                    src="/petpal/assets/img/images/breadcrumb_img.png"
                     alt="img"
                     data-aos="fade-left"
                     data-aos-delay={800}
@@ -34,13 +34,13 @@ function PageTitle(){
         </div>
         <div className="breadcrumb__shape-wrap">
             <img
-            src="/public/petpal/assets/img/images/breadcrumb_shape01.png"
+            src="/petpal/assets/img/images/breadcrumb_shape01.png"
             alt="img"
             data-aos="fade-down-right"
             data-aos-delay={400}
             />
             <img
-            src="/public/petpal/assets/img/images/breadcrumb_shape02.png"
+            src="/petpal/assets/img/images/breadcrumb_shape02.png"
             alt="img"
             data-aos="fade-up-left"
             data-aos-delay={400}

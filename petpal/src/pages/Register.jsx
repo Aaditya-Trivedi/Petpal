@@ -100,7 +100,7 @@ function Register() {
                       <button type="button" className="btn" onClick={Signup}>
                         Signup
                         <img
-                          src="petpal/assets/img/icon/right_arrow.svg"
+                          src="/petpal/assets/img/icon/right_arrow.svg"
                           alt
                           className="injectable"
                         />

@@ -104,7 +104,7 @@ function Gallery(){
                    <div className="col-xl-2 col-md-4">
                      <div className="logo text-center">
                        <a href="index-2.html">
-                         <img src="/public/petpal/assets/img/logo/w_logo.png" alt="Logo" />
+                         <img src="/petpal/assets/img/logo/w_logo.png" alt="Logo" />
                        </a>
                      </div>
                    </div>
@@ -147,7 +147,7 @@ function Gallery(){
                    </div>
                    <div className="nav-logo">
                      <a href="index-2.html">
-                       <img src="/public/petpal/assets/img/logo/logo.png" alt="Logo" />
+                       <img src="/petpal/assets/img/logo/logo.png" alt="Logo" />
                      </a>
                    </div>
                    <div className="tgmobile__search">
@@ -300,7 +300,7 @@ function Gallery(){
              <div className="col-lg-4">
                <div className="breadcrumb__img">
                  <img
-                   src="/public/petpal/assets/img/images/breadcrumb_img.png"
+                   src="/petpal/assets/img/images/breadcrumb_img.png"
                    alt="img"
                    data-aos="fade-left"
                    data-aos-delay={800}
@@ -311,13 +311,13 @@ function Gallery(){
          </div>
          <div className="breadcrumb__shape-wrap">
            <img
-             src="/public/petpal/assets/img/images/breadcrumb_shape01.png"
+             src="/petpal/assets/img/images/breadcrumb_shape01.png"
              alt="img"
              data-aos="fade-down-right"
              data-aos-delay={400}
            />
            <img
-             src="/public/petpal/assets/img/images/breadcrumb_shape02.png"
+             src="/petpal/assets/img/images/breadcrumb_shape02.png"
              alt="img"
              data-aos="fade-up-left"
              data-aos-delay={400}
@@ -332,14 +332,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img01.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img01.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img01.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img01.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -349,14 +349,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img02.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img02.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img02.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img02.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -366,14 +366,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img03.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img03.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img03.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img03.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -383,14 +383,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img04.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img04.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img04.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img04.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -400,14 +400,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img05.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img05.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img05.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img05.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -417,14 +417,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img06.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img06.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img06.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img06.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -434,14 +434,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img07.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img07.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img07.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img07.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -451,14 +451,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img08.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img08.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img08.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img08.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />
@@ -468,14 +468,14 @@ function Gallery(){
              <div className="col-lg-4 col-md-6">
                <div className="gallery__item">
                  <div className="gallery__img">
-                   <img src="/public/petpal/assets/img/gallery/gallery_img09.jpg" alt="img" />
+                   <img src="/petpal/assets/img/gallery/gallery_img09.jpg" alt="img" />
                  </div>
                  <a
-                   href="/public/petpal/assets/img/gallery/gallery_img09.jpg"
+                   href="/petpal/assets/img/gallery/gallery_img09.jpg"
                    className="popup-image"
                  >
                    <img
-                     src="/public/petpal/assets/img/icon/popup_icon.svg"
+                     src="/petpal/assets/img/icon/popup_icon.svg"
                      alt
                      className="injectable"
                    />

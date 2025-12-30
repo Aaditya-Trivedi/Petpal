@@ -100,7 +100,7 @@ function Navbar(){
                         <div className="logo text-center">
                           <a href="index-2.html">
                             <img
-                              src="/public/petpal/assets/img/logo/w_logo.png"
+                              src="/petpal/assets/img/logo/w_logo.png"
                               alt="Logo"
                             />
                           </a>
@@ -146,7 +146,7 @@ function Navbar(){
                       <div className="nav-logo">
                         <a href="index-2.html">
                           <img
-                            src="/public/petpal/assets/img/logo/logo.png"
+                            src="/petpal/assets/img/logo/logo.png"
                             alt="Logo"
                           />
                         </a>
