@@ -1,4 +1,4 @@
-function PageTitle(){
+function PageTitle({title}){
     return (
     <>
         <section className="breadcrumb__area fix">
@@ -6,7 +6,7 @@ function PageTitle(){
             <div className="row align-items-end">
             <div className="col-lg-8">
                 <div className="breadcrumb__content">
-                <h3 className="title">Contact Page</h3>
+                <h3 className="title">{title}</h3>
                 <nav className="breadcrumb">
                     <span property="itemListElement" typeof="ListItem">
                     <a href="index-2.html">Home</a>
@@ -15,7 +15,7 @@ function PageTitle(){
                     <i className="flaticon-right-arrow-angle" />
                     </span>
                     <span property="itemListElement" typeof="ListItem">
-                    Contact
+                    {title}
                     </span>
                 </nav>
                 </div>

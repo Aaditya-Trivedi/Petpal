@@ -28,7 +28,7 @@ function Login() {
       {/* main-area */}
       <main className="fix">
         {/* breadcrumb-area */}
-        <PageTitle />
+        <PageTitle title="Login" />
         {/* breadcrumb-area-end */}
 
         {/* contact-area */}

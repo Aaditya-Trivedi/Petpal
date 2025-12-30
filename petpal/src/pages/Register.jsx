@@ -1,6 +1,8 @@
 import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
 import PageTitle from "../components/PageTitle.jsx";
+import { auth } from "../firebase";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import Swal from "sweetalert2";
 import { useState } from "react";
 
@@ -10,19 +12,32 @@ function Register() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    function Signup(e) {
-      e.preventDefault(); // stop page refresh
-
-      console.log("Name:", name);
-      console.log("Email:", email);
-      console.log("Password:", password);
+    async function Signup() {
+    try {
+      const userCredentials = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
 
       Swal.fire({
         icon: "success",
         title: "Yeah...",
         text: "Registered Successfully!",
       });
+
+      setName("");
+      setEmail("");
+      setPassword("");
+    } catch (err) {
+      // console.log(err);
+      Swal.fire({
+        icon: "error",
+        title: err.message,
+      });
     }
+}
+
 
     return (
       <>
@@ -40,7 +55,7 @@ function Register() {
         {/* main-area */}
         <main className="fix">
           {/* breadcrumb-area */}
-          <PageTitle />
+          <PageTitle title="Register"/>
           {/* breadcrumb-area-end */}
 
           {/* contact-area */}
@@ -65,7 +80,7 @@ function Register() {
                           <div className="form-grp">
                             <input
                               type="text"
-                              name="name"
+                              
                               placeholder="Name"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
@@ -76,7 +91,7 @@ function Register() {
                         <div className="col-md-12">
                           <div className="form-grp">
                             <input
-                              name="email"
+                              
                               type="email"
                               placeholder="E-mail"
                               value={email}
@@ -89,7 +104,7 @@ function Register() {
                           <div className="form-grp">
                             <input
                               type="password"
-                              name="password"
+                              
                               placeholder="Password"
                               value={password}
                               onChange={(e) => setPassword(e.target.value)}
