@@ -3,13 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Contact from './pages/Contact'
+import Register from './pages/Register'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      < Contact/>
+      <Register />
+      {/* < Contact/> */}
+
     </>
   )
 }
