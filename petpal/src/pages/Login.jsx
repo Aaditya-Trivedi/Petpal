@@ -3,8 +3,9 @@ import Navbar from "../components/Navbar.jsx";
 import PageTitle from "../components/PageTitle.jsx";
 import Swal from "sweetalert2";
 import { useState } from "react";
-import { auth } from "../firebase";
+import { auth } from "../firebaseConfig.js";
 import { signInWithEmailAndPassword } from "firebase/auth";
+
 
 function Login() {
   const [email, setEmail] = useState("");

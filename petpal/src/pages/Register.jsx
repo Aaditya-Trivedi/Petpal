@@ -1,7 +1,7 @@
 import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
 import PageTitle from "../components/PageTitle.jsx";
-import { auth } from "../firebase";
+import { auth } from "../firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import Swal from "sweetalert2";
 import { useState } from "react";

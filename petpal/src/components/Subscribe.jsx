@@ -1,4 +1,23 @@
+import { addDoc, collection } from "firebase/firestore"
+import { useState } from "react"
+import { db } from "../firebaseConfig"
+import Swal from "sweetalert2";
+
+
 function Subscribe() {
+    let [email, setEmail] = useState("")
+
+    async function subscribe() {
+        let colRef = collection(db,"subcription")
+
+        await addDoc(colRef,{email: email})
+        Swal.fire({
+            title:"Thank you for Subscibing!...",
+            icon:"success"
+        });
+        setEmail("")
+        
+    }
     return (
         <>
             <div className="footer__newsletter-three">
@@ -11,8 +30,8 @@ function Subscribe() {
                         </div>
                         <div className="col-lg-7">
                             <form action="#" className="footer__newsletter-form-two">
-                                <input type="email" placeholder="Type Your E-mail" />
-                                <button type="submit">Subscribe <img src="/petpal/assets/img/icon/right_arrow04.svg" alt className="injectable" /></button>
+                                <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Type Your E-mail" />
+                                <button type="button" onClick={subscribe}>Subscribe <img src="/petpal/assets/img/icon/right_arrow04.svg" alt className="injectable" /></button>
                             </form>
                         </div>
                     </div>
