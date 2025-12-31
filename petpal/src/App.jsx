@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       {/* <Register /> */}
-      {/* <Contact/> */}
-      <Login />
+      <Contact/>
+      {/* <Login /> */}
       {/* <Gallery /> */}
 
     </>
