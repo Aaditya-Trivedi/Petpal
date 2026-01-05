@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+ 
 function Navbar(){
     return (
       <>
@@ -16,7 +18,7 @@ function Navbar(){
                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                           <ul className="navigation">
                             <li className="menu-item-has-children">
-                              <a href="#">Home</a>
+                              <NavLink to="/">Home</NavLink>
                               <ul className="sub-menu">
                                 <li>
                                   <a href="index-2.html">
@@ -35,7 +37,7 @@ function Navbar(){
                               </ul>
                             </li>
                             <li>
-                              <a href="about.html">About</a>
+                              <NavLink to="/about">About</NavLink>
                             </li>
                             <li className="menu-item-has-children">
                               <a href="#">Shop</a>
@@ -60,7 +62,7 @@ function Navbar(){
                                   <a href="animal-details.html">Pet Details</a>
                                 </li>
                                 <li>
-                                  <a href="gallery.html">Gallery</a>
+                                  <NavLink to="/gallery">Gallery</NavLink>
                                 </li>
                                 <li>
                                   <a href="faq.html">Faq Page</a>
@@ -91,7 +93,7 @@ function Navbar(){
                               </ul>
                             </li>
                             <li className="active">
-                              <a href="contact.html">contacts</a>
+                              <NavLink to="/contact">Contact</NavLink>
                             </li>
                           </ul>
                         </div>
@@ -124,10 +126,10 @@ function Navbar(){
                               </a>
                             </li>
                             <li className="header-btn login-btn">
-                              <a href="contact.html" className="btn">
+                             <NavLink to="/login" className="btn">
                                   <i className="flaticon-locked" />
                                 Login
-                              </a>
+                              </NavLink>
                             </li>
                           </ul>
                         </div>
