@@ -14,7 +14,7 @@ function Navbar(){
                 <div className="col-lg-12">
                   <div className="tgmenu__wrap">
                     <div className="row align-items-center">
-                      <div className="col-xl-5">
+                      <div className="col-xl-6">
                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                           <ul className="navigation">
                             <li className="menu-item-has-children">
@@ -38,6 +38,9 @@ function Navbar(){
                             </li>
                             <li>
                               <NavLink to="/about">About</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/AddPet">AddPet</NavLink>
                             </li>
                             <li className="menu-item-has-children">
                               <a href="#">Shop</a>
@@ -108,7 +111,7 @@ function Navbar(){
                           </a>
                         </div>
                       </div>
-                      <div className="col-xl-5 col-md-8">
+                      <div className="col-xl-4 col-md-8">
                         <div className="tgmenu__action tgmenu__action-two d-none d-md-block">
                           <ul className="list-wrap">
                             <li className="header-search">

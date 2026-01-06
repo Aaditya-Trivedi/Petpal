@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import Subscribe from "./Subscribe";
 
 function Footer() {
@@ -49,7 +50,7 @@ function Footer() {
                     <div className="footer__link">
                       <ul className="list-wrap">
                         <li><a href="about.html">About us</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
+                        <li><NavLink to="/contact">Contact us</NavLink></li>
                         <li><a href="reservation.html">Book Appointment</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contact.html">Locations</a></li>
