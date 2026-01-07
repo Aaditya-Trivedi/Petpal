@@ -5,6 +5,8 @@ import Swal from "sweetalert2";
 import { useState } from "react";
 import { auth } from "../firebaseConfig.js";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { GoogleAuthProvider } from "firebase/auth";
+import { getAuth, signInWithPopup } from "firebase/auth";
 
 
 function Login() {
@@ -38,6 +40,24 @@ function Login() {
       });
     }
   }
+async function googleSigIn() {
+  try {
+    const provider = new GoogleAuthProvider();
+    const userCredentials = await signInWithPopup(auth, provider);
+    console.log(userCredentials);
+
+    Swal.fire({
+      icon: "success",
+      title: "Logged in with Google!",
+    });
+  } catch (error) {
+    console.error(error);
+    Swal.fire({
+      icon: "error",
+      title: "Google Sign-In Failed",
+    });
+  }
+}
   return (
     <>
       {/*Preloader-end */}
@@ -99,6 +119,15 @@ function Login() {
                     </div>
                     <button type="button" className="btn" onClick={SignIn}>
                       Login
+                      <img
+                        src="/petpal/assets/img/icon/right_arrow.svg"
+                        alt
+                        className="injectable"
+                      />
+                    </button>
+                    <p>------------ or ------------</p>
+                    <button type="button" className="btn" onClick={googleSigIn}>
+                      Sign In With Google
                       <img
                         src="/petpal/assets/img/icon/right_arrow.svg"
                         alt
