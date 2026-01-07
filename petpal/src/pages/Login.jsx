@@ -40,7 +40,7 @@ function Login() {
       });
     }
   }
-async function googleSigIn() {
+async function googleSignIn() {
   try {
     const provider = new GoogleAuthProvider();
     const userCredentials = await signInWithPopup(auth, provider);
