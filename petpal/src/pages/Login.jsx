@@ -126,7 +126,7 @@ async function googleSignIn() {
                       />
                     </button>
                     <p>------------ or ------------</p>
-                    <button type="button" className="btn" onClick={googleSigIn}>
+                    <button type="button" className="btn" onClick={googleSignIn}>
                       Sign In With Google
                       <img
                         src="/petpal/assets/img/icon/right_arrow.svg"
