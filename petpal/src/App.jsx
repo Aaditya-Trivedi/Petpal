@@ -9,7 +9,7 @@ import Register from './pages/Register'
 import Login from './pages/Login'
 import Gallery from './pages/Gallery'
 import AddPet from './pages/AddPet';
-import AdminDash from './pages/Admin/adminDash';
+
 
 function App() {
   const [count, setCount] = useState(0)

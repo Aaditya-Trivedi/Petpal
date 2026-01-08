@@ -64,7 +64,7 @@ function AdminLogin(){
                   </ul>
                 </div>
                 <div className="mt-4 text-center">
-                  <p className="mb-0">Don't have an account ? <a href="auth-register.html" className="fw-medium text-primary"> Signup now </a> </p>
+                  <p className="mb-0">Don't have an account ? <a href="http://localhost:5174/login" className="fw-medium text-primary"> Signup now </a> </p>
                 </div>
               </form>
             </div>
