@@ -1,6 +1,6 @@
 import { collection, onSnapshot } from "firebase/firestore";
 import { useEffect } from "react";
-import { db } from "../../firebase";
+import { db } from "../firebase";
 
 function ViewCategories() {
   useEffect(function () {

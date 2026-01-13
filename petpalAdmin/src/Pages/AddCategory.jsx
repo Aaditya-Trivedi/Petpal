@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
-import { db } from "../../firebase";
+import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 
 function AddCategory() {
